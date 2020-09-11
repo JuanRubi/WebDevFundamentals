@@ -10,5 +10,43 @@
     <h1>Contact Page</h1>
     <hr>     <!--  Adds horizontal line -->
     <p>Send an <a href="mailto:rjuan361@gmail.com">email</a></p>
+
+    <!------------      CREATING A FORM     ------------>
+    <form name="login" action="proccess.php" method="POST">
+        username:
+        <input type="text" name="username">
+        password:
+        <input type="password" name="password">
+
+        <!--------      CREATES A DROP DOWN MENU        --------->
+        month:
+        <select name="month" id="">
+            <option value="Jan">January</option>
+            <option value="Feb">Feburary</option>
+            <option value="Mar">March</option>
+            <option value="Apr">April</option>
+            <option value="May">May</option>
+        </select>
+        <br>
+
+        <!--------      CREATES A TEXT BOX      ---------->
+        comments:
+        <br>
+        <textarea name="comments" id="" cols="30" rows="10"></textarea>
+        <br>
+        
+        <!-------       CREATING CHECKBOX       -------->
+        Checkboxes:
+        <input type="checkbox" name="vehicle" value="Bike"> I have a bike
+        <input type="checkbox" name="vehicle" value="Car"> I have a car
+
+        <br>
+        Applying radio:
+        <input type="radio" name="vehicle" value="Bike"> I have a bike
+        <input type="radio" name="vehicle" value="Car"> I have a car
+
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>  
