@@ -4,14 +4,70 @@
     <meta charset="UTF-8">      <!--    The character set we are using.     -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Work</title>
+
+    <!--    A bit of styling just to clearly see rows and columns in table. -->
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+    </style>
 </head>
     <!-- index.html -- is the 1sst page web servers send out when you visit a site -->
 <body>
     <h1>My Work</h1>
     <hr>
     <p><a href="index.html">Home Page</a></p>
-    <p>My Portfolio</p>
-    <p>My first website.</p>
+
+    <!----------        Adding a table      ---------->
+    <table>
+        <thead>    <!--     Assigns row as header. Places at the top automatically.     -->
+            <tr>    <!--    Creating a row.  -->
+                <th id="header">In Progress</th>    <!--    Creating a column.  -->
+                <th id="header">Completed</th>
+            </tr>
+        </thead>
+        
+        <tbody>     <!----------    Assigns body of table.      ---------->
+            <tr>
+                <td>Portfolio</td>
+                <td>First Website</td>
+            </tr>
+    
+            <tr>
+                <td>To-Do App</td>
+                <td>Minimalist Blog</td>
+            </tr>
+        </tbody>
+
+        <tfoot>     <!-- No matter where it is, it will display at the bottom due to tfoot. -->
+            <tr>
+                <td colspan="3">Some of my work in August.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>    <!--    Creating a row.  -->
+            <th id="header">In Progress</th>    <!--    Creating a column.  -->
+            <th id="header">Completed</th>
+        </tr>
+
+        <tr>
+            <td>Portfolio</td>
+            <td>First Website</td>
+        </tr>
+
+        <tr>
+            <td>To-Do App</td>
+            <td rowspan="2">Minimalist Blog</td>
+        </tr>
+
+        <tr>
+            <td>Sorting Visualizer</td>
+        </tr>
+    </table>
 
     <p>Check out <a href="my-plans.html">my plans.</a></p>
     <p>Want to get in touch? <a href="contactMe.html">Contact Me</a></p>
