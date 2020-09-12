@@ -3,7 +3,7 @@ Here are the fundamentals that are needed for web development. It is necessary t
 grasp of these concepts before moving onto more advanced topics. 
 
 ## Technologies
-- HTML5 (in progress)
-- CSS3 (coming soon)
+- HTML5 
+- CSS3 (in progress)
 - JavaScript (coming soon)
 

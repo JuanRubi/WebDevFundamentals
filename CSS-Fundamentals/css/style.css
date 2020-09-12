@@ -1,0 +1,28 @@
+
+/*--------------------      MASTER STYLES       -------------------*/
+
+h2 {
+    color: royalblue;
+}
+
+/* css selector {
+    property: value;
+} */
+
+p {
+    font-size: 17px;
+}
+
+/*--------------------      CLASS STYLES        -------------------*/
+
+/* Classes allow you to select particular tags only. */
+.center {
+    text-align: center;
+}
+
+/*------------------        ID Styles       -----------------------*/
+
+/* ID selectors work similar to classes. */
+#para {
+    color: brown;
+}
