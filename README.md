@@ -7,3 +7,15 @@ grasp of these concepts before moving onto more advanced topics.
 - CSS3 (in progress)
 - JavaScript (coming soon)
 
+## Table of Contents
+1. CSS Fundamentals
+    - Color
+    - Class/ID Selectors
+  
+2. HTML Fundamentals
+    - Headings
+    - Paragraphs
+    - Inline/Block level
+    - List
+    - Forms
+    - Tables
