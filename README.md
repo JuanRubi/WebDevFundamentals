@@ -5,7 +5,7 @@ grasp of these concepts before moving onto more advanced topics.
 ## Technologies
 - HTML5 
 - CSS3 (in progress)
-- JavaScript (coming soon)
+- JavaScript (in progress)
 
 ## Table of Contents
 1. CSS Fundamentals
@@ -19,3 +19,7 @@ grasp of these concepts before moving onto more advanced topics.
     - List
     - Forms
     - Tables
+
+3. JavaScript Fundamentals
+    - Simple Event Handlers: onload, onclick, onmouseover
+    - Basic Functions
