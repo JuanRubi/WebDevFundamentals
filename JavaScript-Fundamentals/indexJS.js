@@ -44,3 +44,16 @@ function newHandler()
 document.getElementById("button3").onclick = function() {
     newHandler();
 }
+
+//--------------------       Variables       -----------------------
+
+var playerName;     // Upper/lowercase letters, numbers, underscore, and $ are allowed. CASE SENSITIVE. 
+playerName = "Juan";
+
+var playerNumber = 24;
+
+var player = playerName + " " + playerNumber;
+
+
+alert(player);
+
