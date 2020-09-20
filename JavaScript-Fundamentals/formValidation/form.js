@@ -6,30 +6,23 @@ function formValidation()
     var username = document.getElementById("userName");
     var value = username.value;
 
-    if(value != "Juan")
+    if(value != "Juan")     // Validating username.
     {
         var messageOutputed = document.getElementById("validationMessage");
         messageOutputed.style.color = "red";
         messageOutputed.innerHTML = "Incorrect username.";
 
-        username.select();
+        username.select();  // Selects text in input. Could use focus() which inserts
+                            // line to continue typing in input box.
 
-        return false;
-    }
-    else 
-    {
-        var messageOutputed = document.getElementById("validationMessage");
-        messageOutputed.style.color = "green";
-        messageOutputed.innerHTML = "Welcome Juan!";
-
-        return true;
+        return false;   // If username is incorrect we return false.
     }
 }
 
 document.getElementById("submit").onclick = function() {
     var checkForm = formValidation();
 
-    if(checkForm == false)
+    if(checkForm == false)    // Prevents the form from being submitted if form filled incorrectly.
     {
         return false;
     }

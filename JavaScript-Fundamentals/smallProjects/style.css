@@ -1,0 +1,21 @@
+
+/*--------------      Master Styles       ---------------*/
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+/*--------      Editing HTML        -----------*/
+#editableTag {
+    background-color: #eeeeee;
+    width: 500px;
+    height: 300px;
+}
+
+/*----------        Drawing with JS     ---------*/
+canvas {
+    width: 500px;
+    height: 350px;
+    border: 1px dashed black;
+}
