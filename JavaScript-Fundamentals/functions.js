@@ -54,3 +54,31 @@ function check()
 document.getElementById("tryIt").onclick = function() {
     check();
 }
+
+
+//-----------------     More Advanced Functions     -------------------
+
+function reuseExample(buttonSide)
+{
+    var button = document.getElementById(buttonSide);
+    button.innerHTML = "Clicked!";
+    console.log(button.value);
+}
+
+document.getElementById("rightButton").onclick = function() {
+    reuseExample(this.id);
+}
+
+document.getElementById("leftButton").onclick = function() {
+    reuseExample(this.id);
+}
+
+// Return from functions.
+function calculate(answerLocation) {
+    var sum = 5 + 15;
+    return sum;         // The function returns the value of sum after it has finished.
+}
+
+document.getElementById("answer").onclick = function() {
+    this.innerHTML = calculate(this.id);
+}
