@@ -19,3 +19,8 @@ canvas {
     height: 350px;
     border: 1px dashed black;
 }
+
+/*------------      Simple Animation        ----------*/
+#controls {
+    margin-bottom: 1rem;
+}
